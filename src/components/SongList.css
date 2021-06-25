@@ -1,0 +1,26 @@
+.songlist {
+    padding: 10px 20px;
+    color: rgb(88, 39, 72);
+}
+.songlist th {
+    padding: 5px 10px;
+    margin: 0;
+    /* border: 1px solid lightcoral; */
+}
+.songlist td {
+    /* border: 1px solid lightcoral; */
+    text-align: center;
+    border-bottom: 1px solid lightcoral;
+} 
+.songlist .title {
+    width: 30%;
+}
+.songlist .artist {
+    width: 30%;
+}
+.songlist .genre {
+    width: 30%;
+}
+.delete-button  {
+    cursor: pointer;
+}

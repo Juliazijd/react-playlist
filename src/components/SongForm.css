@@ -1,0 +1,29 @@
+.song-form {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(252, 235, 235);
+    padding: 20px;
+}
+.song-form input {
+    background-color: rgb(252, 235, 235);
+    border: 1px solid lightcoral;
+    border-bottom: none;
+    padding: 5px;
+}
+.song-form select {
+    background-color: rgb(252, 235, 235);
+    border: 1px solid lightcoral;
+    padding: 5px;
+}
+.song-form button {
+    background-color: lightcoral;
+    color: rgb(252, 235, 235);
+    border: 1px solid lightcoral;
+    margin-top: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+.song-form button:hover {
+    background-color: pink;
+    color: rgb(88, 39, 72);
+}
